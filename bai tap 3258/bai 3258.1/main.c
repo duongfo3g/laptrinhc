@@ -45,26 +45,5 @@ int main(int argc, char *argv[]) {
 			printf("\nN khong la so nguyen to");
 		}
 	}
-	
-	//bai 2
-	fflush(stdin); fflush(stdout);
-	int a, b, i;
-	int sum;
-	printf ("Nhap vao a, b = ");
-	scanf("%d %d", &a, &b);
-	if (abs(a-b) < 2) {
-		printf("Vui long nhap a va b cach nhau toi thieu 2 don vi");
-	}
-	else if (a < b) {
-		for (i = a; i < b; i++) {
-			sum+=i;
-		}
-	}
-	else {
-		for (i = b; i < a; i++) {
-			sum+=i;
-		}
-	}
-	printtf("Tong cac so trong khoang a va b = %d", sum);
 	return 0;
 }
