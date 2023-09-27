@@ -1,6 +1,6 @@
 [Project]
-FileName=array.c.dev
-Name=array.h
+FileName=bai tap 1949.1.dev
+Name=bai tap 1949.1
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=array.c
+FileName=main.c
 CompileCpp=0
 Folder=
 Compile=1
